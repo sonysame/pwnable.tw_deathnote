@@ -1,5 +1,6 @@
 # pwnable.tw_deathnote
-#alpha_numeric shellcode  
+#alpha_numeric shellcode   
+
 free의 got 값을 바꾸어 free가 실행될 때, 쉘코드가 실행되게 한다.  
 이때, 인자로 /bin/sh의 문자열을 넣어주어 /bin/sh는 해결해준다  
 이제 80바이트로 쉘코드를 만들어주어야 한다.  
